@@ -23,7 +23,7 @@ extension FileHandle {
 
 extension DataChannel {
 	public static func stdioPipe(
-	) throws -> DataChannel {
+	) -> DataChannel {
 
 		let writeHandler: DataChannel.WriteHandler = {
       FileHandle.standardOutput.write($0)
