@@ -17,8 +17,7 @@ let package = Package(
     ],
 
     dependencies: [
-      // .package(url: "https://github.com/ChimeHQ/JSONRPC", from: "0.8.0"),
-      .package(path: "../JSONRPC"),
+      .package(url: "https://github.com/ChimeHQ/JSONRPC", from: "0.8.0"),
       .package(
         url: "https://github.com/apple/swift-collections.git",
         .upToNextMinor(from: "1.0.0") // or `.upToNextMajor
